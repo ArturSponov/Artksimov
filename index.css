@@ -1,0 +1,171 @@
+.cont {
+    width: 100%;
+    /* height: 200px; */
+    /* margin: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: ; */
+}
+.lupa {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    background-image: url(751463.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* body {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+} */
+.poner {
+    width: 200px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    animation: blaze 1s ease-in-out;
+}
+@keyframes blaze {
+    from {
+        border-radius: 5px;
+    }
+    25% {
+        border-radius: 15px;
+    }
+    50% {
+        border-radius: 30px;
+    }
+    75% {
+        border-radius: 45px;
+    } 
+    to {
+        border-radius: 100%;
+    }
+}
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height:100%;
+    background-color: rgba(103, 99, 94, 0.862);
+    /* border-radius: 5px; */
+    /* margin: 0 auto; */
+    padding: 100px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 25%;
+    background-position-x: 40%;
+    background-position-y: 25%;
+}
+.h {
+    
+    display: block;
+}
+.big {
+    background-color: green;
+    width: 100%;
+    height: 1000px;
+}
+.i {
+    background-color: blue;
+    opacity: 0.4;
+    width: 100%;
+    height: 1000px;
+}
+@media (max-width: 500px) {
+    .cont {
+        width: 100%;
+        /* height: 200px; */
+        /* margin: 5px; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-color: ; */
+    }
+    .lupa {
+        width: 50px;
+        height: 25px;
+        background-color: blue;
+        background-image: url(751463.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* body {
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+    } */
+    .poner {
+        width: 100px;
+        height: 20px;
+        background-color: blue;
+        color: white;
+        animation: blaze 1s ease-in-out;
+    }
+    @keyframes blaze {
+        from {
+            border-radius: 5px;
+        }
+        25% {
+            border-radius: 15px;
+        }
+        50% {
+            border-radius: 30px;
+        }
+        75% {
+            border-radius: 45px;
+        } 
+        to {
+            border-radius: 100%;
+        }
+    }
+    .modal {
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: none;
+        width: 100%;
+        height:100%;
+        background-color: rgba(103, 99, 94, 0.862);
+        /* border-radius: 5px; */
+        /* margin: 0 auto; */
+        padding: 100px;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size: 25%;
+        background-position-x: 40%;
+        background-position-y: 25%;
+    }
+    .h {
+        
+        display: block;
+    }
+    .big {
+        background-color: green;
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+    .i {
+        background-color: blue;
+        opacity: 0.4;
+        width: 100%;
+        height: 1000px;
+    } 
+}
