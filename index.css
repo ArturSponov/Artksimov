@@ -159,8 +159,7 @@
     .big {
         background-color: green;
         width: 100%;
-        height: 100%;
-        top: 0;
+        height: 1000px;
     }
     .i {
         background-color: blue;
